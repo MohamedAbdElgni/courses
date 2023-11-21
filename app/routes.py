@@ -20,6 +20,7 @@ def categories():
 
     return render_template("categories.html", title="Categories")
 
+
 @app.route("/privacy")
 def privacy():
     return render_template("privacy-policy.html", title="Privacy")
