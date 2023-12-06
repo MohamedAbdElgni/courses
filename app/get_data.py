@@ -15,30 +15,40 @@ for category in categories:
     main_category = category.text
 
     subcategories = category.find_next('ul').find_all('a')
-    subcategory_id = 1  # Initialize the subcategory ID counter
+    subcategory_id = 1  
 
     category_dict = {
         'name': main_category,
         'id': category_id,
-        'image_link': '',  # Add the image link for the main category
-        'subcategories': []  # Initialize an empty list for subcategories
+        'image_link': '', 
+        'type': 'parent',
+        'subcategories': []  
     }
     categories_list.append(category_dict)
-    category_id += 1  # Increment the category ID counter
+    category_id += 1  
 
     for subcategory in subcategories:
         subcategory_dict = {
             'name': subcategory.text,
             'id': f"{category_id}-{subcategory_id}",
-            'image_link': '',  # Add the image link for the subcategory
-            'parent_id': category_dict['id']  # Add the id of the main category
+            'image_link': '',  
+            'type': 'sub',
+            'parent_id': category_dict['id']  
         }
         category_dict['subcategories'].append(subcategory_dict)
-        subcategory_id += 1  # Increment the subcategory ID counter
+        subcategory_id += 1  
 
-# Print the categories_list
-for category in categories_list:
-    for i, j in category.items():
-        print(i, j)
-    
+
+# for category in categories_list:
+#     for i, j in category.items():
+#         print(i, j)
+
+# add this data to json file
+
+import json
+
+with open('categories.json', 'w') as f:
+    json.dump(categories_list, f, indent=4)
+
+
 

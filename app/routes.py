@@ -2,6 +2,8 @@ from flask import render_template
 from app import app
 
 
+
+
 @app.route('/')
 @app.route('/home')
 def home():
@@ -9,7 +11,7 @@ def home():
     return render_template("home.html", title="Sever reponse")
 
 
-@app.route('/course')
+@app.route('/course<:int:course_id>')
 def course():
 
     return render_template("course.html", title="Course")
