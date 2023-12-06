@@ -10,9 +10,9 @@ def home():
     return render_template("home.html", title="Sever reponse")
 
 
-@app.route('/course<int:course_id>')
-def course(course_id):
-    print(course_id)
+@app.route('/course')
+def course():
+    
     return render_template("course.html", title="Course")
 
 
