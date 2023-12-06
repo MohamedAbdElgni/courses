@@ -1,19 +1,18 @@
 from flask import render_template
+from config import Config
 from app import app
-
-
-
+import os
 
 @app.route('/')
 @app.route('/home')
 def home():
-
+    #getting client id and secret from .flaskenv
     return render_template("home.html", title="Sever reponse")
 
 
-@app.route('/course<:int:course_id>')
-def course():
-
+@app.route('/course<int:course_id>')
+def course(course_id):
+    print(course_id)
     return render_template("course.html", title="Course")
 
 
