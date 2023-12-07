@@ -2,11 +2,19 @@ from flask import render_template
 from config import Config
 from app import app
 import os
+import json
+path_cat = 'app/categories.json'
+
+
+
+
 
 @app.route('/')
 @app.route('/home')
 def home():
-    
+    with open(path_cat,'r') as file:
+        cat_data = json.load(file)
+    print(cat_data[0]['name'])
     return render_template("home.html", title="Sever reponse")
 
 
