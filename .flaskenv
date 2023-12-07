@@ -2,7 +2,3 @@ FLASK_APP=coursesapp.py
 FLASK_ENV=development
 FLASK_DEBUG=1
 
-client_id = 'vPMELH5fShlp2e0UFbyzCQKGItjcmoL8xR0hfZXl'
-client_sec = '6xUpSdCcYP170BpSE9dQczzZDt5L8A7f583K2AQE67u1Bqjt0utUVtunaiUhydbpLNV5sPfwLTd5tPimi58WdRWL2zB12tdns888naZ5VlTM0Ujsi1WavR0UoaA7JPVk'
-
-

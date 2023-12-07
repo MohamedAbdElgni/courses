@@ -6,7 +6,7 @@ import os
 @app.route('/')
 @app.route('/home')
 def home():
-    #getting client id and secret from .flaskenv
+    
     return render_template("home.html", title="Sever reponse")
 
 
