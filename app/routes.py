@@ -4,9 +4,6 @@ from app import app
 from app.models import Category , Courses, SubCategory
 from get_data import getCourses , UdemyApiParams
 
-import json
-path_cat = './categories.json'
-
 
 
 
@@ -31,7 +28,7 @@ def home():
 
 @app.route('/course')
 def course():
-    
+  
     
     return render_template("course.html", title="Course")
 
@@ -40,10 +37,15 @@ def course():
 def categories(slug):
     slug = slug
     selected_cat = SubCategory.query.filter_by(slug=slug).first()
-    params = UdemyApiParams(search= slug , page_size=2 , is_deals_agreed=True , ratings=4)
-    # courses = getCourses(params)
+    if selected_cat:
+        pass
+    else:
+        selected_cat = Category.query.filter_by(slug=slug).first()
+    params = UdemyApiParams(search= slug , page_size=1 , is_deals_agreed=True , ratings=4)
+    courses = getCourses(params)
+    print(courses['results'])
     # print(courses['results'])
-    return render_template("categories.html", title="Categories",selected_cat = selected_cat)
+    return render_template("categories.html", title="Categories",selected_cat = selected_cat,courses=courses['results'])
 
 
 @app.route("/privacy")

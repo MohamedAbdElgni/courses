@@ -2,8 +2,124 @@
 
 {% block started_courses %}
 {% endblock started_courses%}
-{% block ftitlec %}
-{% endblock ftitlec %}
+
 {% block content %}
-<h2>{{selected_cat.title}} Courses</h2>
+
 {% endblock content %}
+
+{% block featured_courses %}
+
+
+<!----start featured courses------>
+<section class="col-12 courses  mt-5">
+
+    {% block ftitlec %}
+    <h4 class="title">{{selected_cat.title}} Courses</h4>
+    {% endblock ftitlec %}
+
+    <div class="row row-cols-1">
+        <!--related cat courses-->
+        {% for course in courses %}
+        <div class="col course">
+            <a href="#" class="card h-100">
+                <div class="row g-4">
+
+                    <div
+                        class="col-md-3  col-12">
+                        <div
+                            class="image-container">
+                            <img
+                                src="{{course.image_480x270}}"
+                                alt="course"
+                                loading="lazy">
+                            <div class="overlay">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-9 col-12">
+                        <div
+                            class="card-content row">
+
+                            <div
+                                class="col-lg-10 col-12 course-info">
+                                <h3>{{course.title}}</h3>
+
+                                <p>{{course.headline}}</p>
+
+                                <div
+                                    class="author">
+                                    {{course.display_name}}
+                                </div>
+
+                                <div
+                                    class="course-rating d-flex align-items-baseline flex-wrap gap-2">
+                                    <div
+                                        class="avg-rating">4.7</div>
+                                    <div
+                                        class="stars">
+                                        <i
+                                            class="fa fa-star"></i>
+                                        <i
+                                            class="fa fa-star"></i>
+                                        <i
+                                            class="fa fa-star"></i>
+                                        <i
+                                            class="fa fa-star"></i>
+                                        <i
+                                            class="fa fa-star"></i>
+                                    </div>
+                                    <div
+                                        class="num-rating">
+                                        (266.099)
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="course-details">
+                                    <span>74
+                                        total
+                                        hours</span>
+                                    <span
+                                        class="dot"><i
+                                            class="fa-solid fa-circle-dot"></i></span>
+                                    <span>380
+                                        lectures</span>
+                                    <span
+                                        class="dot">
+                                        <i
+                                            class="fa-solid fa-circle-dot"></i></span>
+                                    <span>All
+                                        levels</span>
+                                </div>
+
+                                <div
+                                    class="badge">
+                                    Bestseller
+                                </div>
+                            </div>
+
+                            <div
+                                class="col-lg-2 col-12 course-price text-lg-center d-lg-block d-flex align-items-baseline gap-1 flex-wrap ">
+                                <div
+                                    class="origin-price">{{course.price_detail.currency_symbol}}{{course.price_detail.amount}}</div>
+                                <div
+                                    class="del-price"><del>{{course.price_detail.price_string}}</del></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </a>
+        </div>
+        {% endfor %}
+        <!--endrelated cat courses-->
+    </div>
+
+</section>
+<!-------end  featured course------->
+{% endblock featured_courses %}

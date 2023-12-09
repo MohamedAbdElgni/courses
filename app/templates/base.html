@@ -28,10 +28,7 @@
         <link rel="stylesheet" type="text/css"
             href="{{url_for( 'static', filename='css/style.css') }}" />
         <!-- Make the images pathes work correctly -->
-        <script>
-        var APP_URL = "{{url_for('static', filename='')}}";
 
-    </script>
 
     </head>
 
@@ -96,17 +93,21 @@
                                 </span>
 
                             </a>
+                            
                             <div class="collapse" id="collapse-1">
+                                
                                 <ul>
                                     {% for subcat in cat.subcategories %}
                                     <li><a class="dropdown-item" href="{{url_for('categories',slug=subcat.slug)}}"
                                             aria-label="Microsoft">
                                             <span class="sidebar-text">{{subcat.title}}</span>
                                         </a></li>
+                                    
                                     {% endfor %}
-
-                                </ul>
+                                </ul> 
+                                
                             </div>
+                           
 
                         </li>
                         {% endfor %}
@@ -719,7 +720,7 @@
 
                                                             <div
                                                                 class="col-lg-10 col-12 course-info">
-                                                                <h3>Lorem ipsum
+                                                                <h3>3333Lorem ipsum
                                                                     dolor sit
                                                                     amet
                                                                     consectetur.</h3>
@@ -920,6 +921,10 @@
 
             <script type="text/javascript"
                 src="{{url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 
             <script type="text/javascript"
                 src="{{url_for('static', filename='js/all.min.js')}}"></script>

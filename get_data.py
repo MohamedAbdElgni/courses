@@ -125,14 +125,11 @@ def getCourses(params: UdemyApiParams = None):
 #     db.session.commit()
 
 #~ if you want to upgrade with new columns run this 
-# with app.app_context():
-#     db.create_all()
-#     migrate.init_app(app, db)
-#     db.session.commit()
 
-# python manage.py db init  # Initialize migrations (only run once)
-# python manage.py db migrate -m "Add 'type' column to category table"
-# python manage.py db upgrade
+
+# flask db init  
+# flask manage.py db migrate -m "commit msg"
+# flask manage.py db upgrade
 
 # #^ --> 2- add categories from json to the database
 
