@@ -96,8 +96,8 @@ def getCourses(params: UdemyApiParams = None):
         url = f"{base_url}{end_point}"
 
     response = requests.get(url, headers=headers)
-    print(url)
-    print(query_params)
+    # print(url)
+    # print(query_params)
     if response.status_code == 200:
         course_data = response.json()
         return course_data
@@ -105,8 +105,9 @@ def getCourses(params: UdemyApiParams = None):
         print(f"Error: {response.status_code}")
         return None
     
-# Example usage:
-params = UdemyApiParams(category='Development',page_size=1,subcategory='Web Development',search='python')
+# Example usage for getCourses()
+params = UdemyApiParams(category='Development',page_size=2,subcategory='Web Development',search='python')
 courses_data = getCourses(params)
 if courses_data:
     print(courses_data['results'])
+

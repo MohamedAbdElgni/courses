@@ -1,0 +1,1926 @@
+[
+    {
+        "name": "Development",
+        "id": 1,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "Python",
+                "id": "1-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Web Development",
+                "id": "2-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Data Science",
+                "id": "3-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "JavaScript",
+                "id": "4-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "React JS",
+                "id": "5-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Unreal Engine",
+                "id": "6-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Java",
+                "id": "7-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Machine Learning",
+                "id": "8-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "C# (programming language)",
+                "id": "9-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Deep Learning",
+                "id": "10-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "C++ (programming language)",
+                "id": "11-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Unity",
+                "id": "12-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "SQL",
+                "id": "13-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Google Flutter",
+                "id": "14-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Angular",
+                "id": "15-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Docker",
+                "id": "16-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Node.Js",
+                "id": "17-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "CSS",
+                "id": "18-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Typescript",
+                "id": "19-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            },
+            {
+                "name": "Software Testing",
+                "id": "20-1",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 1
+            }
+        ]
+    },
+    {
+        "name": "Business",
+        "id": 2,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "PMI Project Management Professional (PMP)",
+                "id": "1-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Microsoft Power BI",
+                "id": "2-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Project Management",
+                "id": "3-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "SQL",
+                "id": "4-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Data Modeling",
+                "id": "5-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "PMI PMBOK",
+                "id": "6-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Business Analysis",
+                "id": "7-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Data Analysis",
+                "id": "8-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Real Estate Investing",
+                "id": "9-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "PMI Certified Associate in Project Management (CAPM)",
+                "id": "10-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Product Management",
+                "id": "11-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Tableau",
+                "id": "12-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "ChatGPT",
+                "id": "13-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Communication Skills",
+                "id": "14-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Amazon FBA",
+                "id": "15-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Sales Skills",
+                "id": "16-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Agile",
+                "id": "17-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Scrum",
+                "id": "18-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Leadership",
+                "id": "19-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            },
+            {
+                "name": "Human Resources",
+                "id": "20-2",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 2
+            }
+        ]
+    },
+    {
+        "name": "Finance & Accounting",
+        "id": 3,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "Stock Trading",
+                "id": "1-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Investing",
+                "id": "2-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Financial Analysis",
+                "id": "3-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Forex Trading",
+                "id": "4-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Accounting",
+                "id": "5-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Cryptocurrency",
+                "id": "6-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Technical Analysis (finance)",
+                "id": "7-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Algorithmic Trading",
+                "id": "8-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Financial Modeling",
+                "id": "9-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Financial Markets",
+                "id": "10-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Day Trading",
+                "id": "11-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Options Trading",
+                "id": "12-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Finance Fundamentals",
+                "id": "13-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Personal Finance",
+                "id": "14-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "QuickBooks Online",
+                "id": "15-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Bookkeeping",
+                "id": "16-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Excel",
+                "id": "17-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Financial Trading",
+                "id": "18-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Tax Preparation",
+                "id": "19-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            },
+            {
+                "name": "Python",
+                "id": "20-3",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 3
+            }
+        ]
+    },
+    {
+        "name": "IT & Software",
+        "id": 4,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "AWS Certified Cloud Practitioner",
+                "id": "1-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "AWS Certified Solutions Architect - Associate",
+                "id": "2-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "Ethical Hacking",
+                "id": "3-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "Amazon AWS",
+                "id": "4-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "CompTIA A+",
+                "id": "5-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "CompTIA Security+",
+                "id": "6-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "Cybersecurity",
+                "id": "7-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "Cisco Certified Network Associate (CCNA)",
+                "id": "8-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "Linux",
+                "id": "9-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "ChatGPT",
+                "id": "10-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "Kubernetes",
+                "id": "11-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "Information Security",
+                "id": "12-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "AWS Certified Developer - Associate",
+                "id": "13-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "CompTIA Network+",
+                "id": "14-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "AZ-900: Microsoft Azure Fundamentals",
+                "id": "15-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "DevOps",
+                "id": "16-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "Python",
+                "id": "17-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "AZ-104: Microsoft Azure Administrator Associate",
+                "id": "18-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "Linux Administration",
+                "id": "19-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            },
+            {
+                "name": "IT Networking Fundamentals",
+                "id": "20-4",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 4
+            }
+        ]
+    },
+    {
+        "name": "Office Productivity",
+        "id": 5,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "Excel",
+                "id": "1-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "ChatGPT",
+                "id": "2-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Microsoft 365 (Office)",
+                "id": "3-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Excel VBA",
+                "id": "4-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Microsoft Power BI",
+                "id": "5-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "PowerPoint",
+                "id": "6-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Excel Formulas and Functions",
+                "id": "7-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "SAP",
+                "id": "8-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Data Analysis",
+                "id": "9-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Pivot Tables",
+                "id": "10-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "SharePoint",
+                "id": "11-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Microsoft Project",
+                "id": "12-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Microsoft Word",
+                "id": "13-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Microsoft Access",
+                "id": "14-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Google Sheets",
+                "id": "15-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "SAP S/4HANA",
+                "id": "16-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Power Pivot",
+                "id": "17-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Excel Dashboard",
+                "id": "18-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Microsoft Power Automate",
+                "id": "19-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            },
+            {
+                "name": "Microsoft Power Apps",
+                "id": "20-5",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 5
+            }
+        ]
+    },
+    {
+        "name": "Personal Development",
+        "id": 6,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "Life Coach Training",
+                "id": "1-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "ChatGPT",
+                "id": "2-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Personal Development",
+                "id": "3-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Neuro-Linguistic Programming",
+                "id": "4-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Leadership",
+                "id": "5-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Communication Skills",
+                "id": "6-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Personal Productivity",
+                "id": "7-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Speed Reading",
+                "id": "8-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Personal Transformation",
+                "id": "9-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Memory",
+                "id": "10-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Coaching",
+                "id": "11-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Time Management",
+                "id": "12-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Confidence",
+                "id": "13-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Public Speaking",
+                "id": "14-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Mindfulness",
+                "id": "15-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Spirituality",
+                "id": "16-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Management Skills",
+                "id": "17-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Creative Writing",
+                "id": "18-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Emotional Intelligence",
+                "id": "19-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            },
+            {
+                "name": "Sound Therapy",
+                "id": "20-6",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 6
+            }
+        ]
+    },
+    {
+        "name": "Design",
+        "id": 7,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "Blender",
+                "id": "1-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Graphic Design",
+                "id": "2-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "User Experience Design",
+                "id": "3-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Adobe Photoshop",
+                "id": "4-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Figma",
+                "id": "5-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "3D Modeling",
+                "id": "6-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Adobe Illustrator",
+                "id": "7-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Drawing",
+                "id": "8-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "AutoCAD",
+                "id": "9-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Canva",
+                "id": "10-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Adobe After Effects",
+                "id": "11-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Web Design",
+                "id": "12-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Mobile App Design",
+                "id": "13-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Procreate Digital Illustration App",
+                "id": "14-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Motion Graphics",
+                "id": "15-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Revit",
+                "id": "16-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "SOLIDWORKS",
+                "id": "17-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Midjourney",
+                "id": "18-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "Unreal Engine",
+                "id": "19-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            },
+            {
+                "name": "WordPress",
+                "id": "20-7",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 7
+            }
+        ]
+    },
+    {
+        "name": "Marketing",
+        "id": 8,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "Digital Marketing",
+                "id": "1-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Search Engine Optimization (SEO)",
+                "id": "2-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Social Media Marketing",
+                "id": "3-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Google Ads (Adwords)",
+                "id": "4-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Instagram Marketing",
+                "id": "5-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Facebook Ads",
+                "id": "6-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Marketing Strategy",
+                "id": "7-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Copywriting",
+                "id": "8-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "ChatGPT",
+                "id": "9-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Facebook Marketing",
+                "id": "10-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Social Media Management",
+                "id": "11-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "YouTube Marketing",
+                "id": "12-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Affiliate Marketing",
+                "id": "13-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Google Analytics",
+                "id": "14-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "PPC Advertising",
+                "id": "15-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "TikTok Marketing",
+                "id": "16-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "WordPress",
+                "id": "17-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Keyword Research",
+                "id": "18-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "YouTube Audience Growth",
+                "id": "19-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            },
+            {
+                "name": "Startup",
+                "id": "20-8",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 8
+            }
+        ]
+    },
+    {
+        "name": "Lifestyle",
+        "id": 9,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "Reiki",
+                "id": "1-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Drawing",
+                "id": "2-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Energy Healing",
+                "id": "3-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Tarot Reading",
+                "id": "4-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Chess",
+                "id": "5-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Hypnotherapy",
+                "id": "6-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Spiritual Healing",
+                "id": "7-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Watercolor Painting",
+                "id": "8-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Astrology",
+                "id": "9-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Painting",
+                "id": "10-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Psychic",
+                "id": "11-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Makeup Artistry",
+                "id": "12-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Chakra",
+                "id": "13-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Figure Drawing",
+                "id": "14-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Beauty",
+                "id": "15-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Shamanism",
+                "id": "16-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Akashic Records",
+                "id": "17-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Cooking",
+                "id": "18-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Spirituality",
+                "id": "19-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            },
+            {
+                "name": "Neuro-Linguistic Programming",
+                "id": "20-9",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 9
+            }
+        ]
+    },
+    {
+        "name": "Photography & Video",
+        "id": 10,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "Photography",
+                "id": "1-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Video Editing",
+                "id": "2-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Adobe Premiere",
+                "id": "3-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Video Production",
+                "id": "4-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "DaVinci Resolve",
+                "id": "5-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Adobe Lightroom",
+                "id": "6-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "iPhone Photography",
+                "id": "7-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Adobe After Effects",
+                "id": "8-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Adobe Photoshop",
+                "id": "9-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Filmmaking",
+                "id": "10-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Color Grading",
+                "id": "11-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Digital Camera Functionality",
+                "id": "12-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Unreal Engine",
+                "id": "13-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Affinity Photo",
+                "id": "14-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Real Estate Photography",
+                "id": "15-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "YouTube Audience Growth",
+                "id": "16-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Social Media Marketing",
+                "id": "17-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Final Cut Pro",
+                "id": "18-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Cinematography",
+                "id": "19-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            },
+            {
+                "name": "Mobile Photography",
+                "id": "20-10",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 10
+            }
+        ]
+    },
+    {
+        "name": "Health & Fitness",
+        "id": 11,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "Yoga",
+                "id": "1-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Massage",
+                "id": "2-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Nutrition",
+                "id": "3-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Fitness",
+                "id": "4-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "CBT Cognitive Behavioral Therapy",
+                "id": "5-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Meditation",
+                "id": "6-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Herbalism",
+                "id": "7-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Qi Gong",
+                "id": "8-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Breathing Techniques",
+                "id": "9-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Facial Massage",
+                "id": "10-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Sports Massage",
+                "id": "11-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Pilates",
+                "id": "12-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Holistic Medicine",
+                "id": "13-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Dance",
+                "id": "14-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Weight Loss",
+                "id": "15-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Health",
+                "id": "16-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Natural Medicine",
+                "id": "17-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Mental Health",
+                "id": "18-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Aromatherapy",
+                "id": "19-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            },
+            {
+                "name": "Tai Chi",
+                "id": "20-11",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 11
+            }
+        ]
+    },
+    {
+        "name": "Music",
+        "id": 12,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "Guitar",
+                "id": "1-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Piano",
+                "id": "2-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Music Production",
+                "id": "3-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Music Theory",
+                "id": "4-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Singing",
+                "id": "5-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Music Composition",
+                "id": "6-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Keyboard Instrument",
+                "id": "7-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Ableton Live",
+                "id": "8-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "FL Studio",
+                "id": "9-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Logic Pro",
+                "id": "10-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "DJ",
+                "id": "11-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Songwriting",
+                "id": "12-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Music Mixing",
+                "id": "13-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Fingerstyle Guitar",
+                "id": "14-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Electronic Music",
+                "id": "15-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Piano Chords",
+                "id": "16-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Reading Music",
+                "id": "17-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Bass Guitar",
+                "id": "18-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Drums",
+                "id": "19-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            },
+            {
+                "name": "Audio Engineering",
+                "id": "20-12",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 12
+            }
+        ]
+    },
+    {
+        "name": "Teaching & Academics",
+        "id": 13,
+        "image_link": "",
+        "type": "parent",
+        "subcategories": [
+            {
+                "name": "English Language",
+                "id": "1-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "German Language",
+                "id": "2-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Math",
+                "id": "3-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "English Grammar",
+                "id": "4-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Spanish Language",
+                "id": "5-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "IELTS",
+                "id": "6-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "French Language",
+                "id": "7-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Calculus",
+                "id": "8-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Statistics",
+                "id": "9-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Japanese Language",
+                "id": "10-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "English Vocabulary",
+                "id": "11-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "English Conversation",
+                "id": "12-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Psychology",
+                "id": "13-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Algebra",
+                "id": "14-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Civil Engineering",
+                "id": "15-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Linear Algebra",
+                "id": "16-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Arabic Language",
+                "id": "17-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Electrical Engineering",
+                "id": "18-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Italian Language",
+                "id": "19-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            },
+            {
+                "name": "Probability",
+                "id": "20-13",
+                "image_link": "",
+                "type": "sub",
+                "parent_id": 13
+            }
+        ]
+    }
+]

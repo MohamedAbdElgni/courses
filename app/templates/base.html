@@ -79,15 +79,16 @@
                         <!-- end home stuff -->
                         
                         <!-- prodd -->
+                        {% for cat in cats %}
                         <li>
-                            <a href="#" data-bs-toggle="collapse"
+                            <a href="{{url_for('categories',cat_name=cat.name|replace(' ', '-'))}}" data-bs-toggle="collapse"
                                 data-bs-target="#collapse-1"
                                 aria-label="Office Productivity"
                                 class="collapse-1">
                                 <span class="sidebar-icon"> <i
-                                        class="fa-regular fa-building"></i></span>
+                                        class={{cat.image_link}}></i></span>
                                 <span class="sidebar-text">
-                                    Office Productivity
+                                    {{cat.name}}
                                     <span class="chevron">
 
                                     </span>
@@ -97,39 +98,18 @@
                             </a>
                             <div class="collapse" id="collapse-1">
                                 <ul>
-                                    <li><a class="dropdown-item" href="#"
+                                    {% for subcat in cat.subcategories %}
+                                    <li><a class="dropdown-item" href="{{url_for('categories',cat_name=subcat.name|replace(' ', '-'))}}"
                                             aria-label="Microsoft">
-                                            <span class="sidebar-text">Microsoft</span>
+                                            <span class="sidebar-text">{{subcat.name}}</span>
                                         </a></li>
-                                    <li><a class="dropdown-item " href="#"
-                                            aria-label="Apple">
-                                            <span class="sidebar-text">Apple</span>
-                                        </a></li>
-                                    <li><a class="dropdown-item " href="#"
-                                            aria-label="Google">
-                                            <span class="sidebar-text">Google</span>
-                                        </a></li>
-
-                                    <li><a class="dropdown-item " href="#"
-                                            aria-label="SAP">
-                                            <span class="sidebar-text">SAP</span>
-                                        </a></li>
-
-                                    <li><a class="dropdown-item " href="#"
-                                            aria-label="Oracl">
-                                            <span class="sidebar-text">Oracl</span>
-                                        </a></li>
-
-                                    <li><a class="dropdown-item " href="#"
-                                            aria-label="Oher Office Productivity">
-                                            <span class="sidebar-text">Other
-                                                Office Productivity</span>
-                                        </a></li>
+                                    {% endfor %}
 
                                 </ul>
                             </div>
 
                         </li>
+                        {% endfor %}
                     </ul>
 
                 </aside>
