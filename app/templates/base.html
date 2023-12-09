@@ -81,14 +81,14 @@
                         <!-- prodd -->
                         {% for cat in cats %}
                         <li>
-                            <a href="{{url_for('categories',cat_name=cat.name|replace(' ', '-'))}}" data-bs-toggle="collapse"
+                            <a href="{{url_for('categories',slug=cat.slug)}}" data-bs-toggle="collapse"
                                 data-bs-target="#collapse-1"
                                 aria-label="Office Productivity"
                                 class="collapse-1">
                                 <span class="sidebar-icon"> <i
                                         class={{cat.image_link}}></i></span>
                                 <span class="sidebar-text">
-                                    {{cat.name}}
+                                    {{cat.title}}
                                     <span class="chevron">
 
                                     </span>
@@ -99,9 +99,9 @@
                             <div class="collapse" id="collapse-1">
                                 <ul>
                                     {% for subcat in cat.subcategories %}
-                                    <li><a class="dropdown-item" href="{{url_for('categories',cat_name=subcat.name|replace(' ', '-'))}}"
+                                    <li><a class="dropdown-item" href="{{url_for('categories',slug=subcat.slug)}}"
                                             aria-label="Microsoft">
-                                            <span class="sidebar-text">{{subcat.name}}</span>
+                                            <span class="sidebar-text">{{subcat.title}}</span>
                                         </a></li>
                                     {% endfor %}
 
@@ -2582,114 +2582,20 @@
                                             style="height:140px;">
 
                                             <div class="swiper-wrapper">
+                                                {%for cat in cats%}
                                                 <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        Web Development
+                                                    <a href="{{url_for('categories',slug=cat.slug)}}" class="btn">
+                                                        {{cat.title}}
                                                     </a>
                                                 </div>
-
+                                                {%for subcat in cat.subcategories%}
                                                 <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        React Js
+                                                    <a href="{{url_for('categories',slug=subcat.slug)}}" class="btn">
+                                                        {{subcat.title}}
                                                     </a>
                                                 </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        CSS
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        ASP.NET Core
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        Wordpress
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        JavaScript
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        Angular
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        Web Development
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        Web Development
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        Web Development
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        React Js
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        CSS
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        ASP.NET Core
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        Wordpress
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        JavaScript
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        Angular
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        Web Development
-                                                    </a>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <a href="#" class="btn">
-                                                        Web Development
-                                                    </a>
-                                                </div>
-
+                                                {%endfor%}
+                                                {%endfor%}
                                             </div>
 
                                         </div>

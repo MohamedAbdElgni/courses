@@ -5,6 +5,9 @@ import base64
 from dataclasses import dataclass, fields
 from dataclasses import dataclass, fields
 import requests
+from app import app, db, migrate
+
+from app.models import Category, Courses, SubCategory
 
 client_id= 'vPMELH5fShlp2e0UFbyzCQKGItjcmoL8xR0hfZXl'
 client_secret= '6xUpSdCcYP170BpSE9dQczzZDt5L8A7f583K2AQE67u1Bqjt0utUVtunaiUhydbpLNV5sPfwLTd5tPimi58WdRWL2zB12tdns888naZ5VlTM0Ujsi1WavR0UoaA7JPVk',
@@ -104,10 +107,72 @@ def getCourses(params: UdemyApiParams = None):
     else:
         print(f"Error: {response.status_code}")
         return None
-    
-# Example usage for getCourses()
-params = UdemyApiParams(category='Development',page_size=2,subcategory='Web Development',search='python')
-courses_data = getCourses(params)
-if courses_data:
-    print(courses_data['results'])
+
+#^--> 0- this is the first to run on the server
+# setCatsUp()
+
+# # Example usage for getCourses()
+# # params = UdemyApiParams(category='Development',page_size=2,subcategory='Web Development',search='python')
+# # courses_data = getCourses(params)
+# # if courses_data:
+# #     print(courses_data['results'])
+
+#^---> 1 - migrate the database to the latest version
+#! this is the secound to run on the server
+# with app.app_context():
+#     db.create_all()
+#     migrate.init_app(app, db)
+#     db.session.commit()
+
+#~ if you want to upgrade with new columns run this 
+# with app.app_context():
+#     db.create_all()
+#     migrate.init_app(app, db)
+#     db.session.commit()
+
+# python manage.py db init  # Initialize migrations (only run once)
+# python manage.py db migrate -m "Add 'type' column to category table"
+# python manage.py db upgrade
+
+# #^ --> 2- add categories from json to the database
+
+with app.app_context():
+    with open('categories.json', 'r') as f:
+        categories = json.load(f)
+        for category in categories:
+            existing_cat = db.session.get(Category, category['id'])
+            if not existing_cat:
+                cat = Category(
+                    id=category['id'],
+                    title=category['name'],
+                    slug=category['name'].replace(' ', '-'),
+                    url='',
+                    image='',
+                    types='parent',
+                )
+                db.session.add(cat)
+                db.session.commit()
+
+                for subcategory in category['subcategories']:
+                    existing_subcat = db.session.get(SubCategory, subcategory['id'])
+                    if not existing_subcat:
+                        subcat = SubCategory(
+                            id=subcategory['id'],
+                            title=subcategory['name'],
+                            slug=subcategory['name'].replace(' ', '-'),
+                            url='',
+                            image='',
+                            types='sub',
+                            parent_id=category['id'],
+                        )
+                        db.session.add(subcat)
+                        db.session.commit()
+
+
+
+
+
+
+
+
 
