@@ -8,8 +8,11 @@ import requests
 from app import app, db, migrate
 
 from app.models import Category, Courses, SubCategory
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
-client_id= 'vPMELH5fShlp2e0UFbyzCQKGItjcmoL8xR0hfZXl'
+client_id= 
 client_secret= '6xUpSdCcYP170BpSE9dQczzZDt5L8A7f583K2AQE67u1Bqjt0utUVtunaiUhydbpLNV5sPfwLTd5tPimi58WdRWL2zB12tdns888naZ5VlTM0Ujsi1WavR0UoaA7JPVk',
     
 def setCatsUp():

@@ -41,9 +41,9 @@ def categories(slug):
         pass
     else:
         selected_cat = Category.query.filter_by(slug=slug).first()
-    params = UdemyApiParams(search= slug , page_size=1 , is_deals_agreed=True , ratings=4)
+    params = UdemyApiParams(search= slug , page_size=20 , is_deals_agreed=True , ratings=4)
     courses = getCourses(params)
-    print(courses['results'])
+    print(courses['results'][0])
     # print(courses['results'])
     return render_template("categories.html", title="Categories",selected_cat = selected_cat,courses=courses['results'])
 
