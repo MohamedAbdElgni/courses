@@ -28,7 +28,7 @@ def home():
 
 @app.route('/course')
 def course():
-  
+
     
     return render_template("course.html", title="Course")
 

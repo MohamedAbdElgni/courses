@@ -44,7 +44,7 @@
                     <ul class="mt-1">
                         <li class="d-lg-none d-block">
                             <button class="btn" aria-label="toggleSidebar"
-                                onclick="clickSidebar()">
+                                onclick="">
                                 <span class="sidebar-icon">
                                     <i class="fa-solid fa-bars"></i>
                                 </span>
@@ -76,41 +76,31 @@
                         <!-- end home stuff -->
                         
                         <!-- prodd -->
-                        {% for cat in cats %}
-                        <li>
-                            <a href="{{url_for('categories',slug=cat.slug)}}" data-bs-toggle="collapse"
-                                data-bs-target="#collapse-1"
-                                aria-label="Office Productivity"
-                                class="collapse-1">
-                                <span class="sidebar-icon"> <i
-                                        class={{cat.image_link}}></i></span>
-                                <span class="sidebar-text">
-                                    {{cat.title}}
-                                    <span class="chevron">
+                        <!-- prodd -->
+                        <!-- prodd -->
+{% for cat in cats %}
+<li>
+    <a href="{{url_for('categories',slug=cat.slug)}}" aria-label="Office Productivity" class="collapse-1">
+        <span class="sidebar-icon"> <i class={{cat.image_link}}></i></span>
+        <span class="sidebar-text">
+            {{cat.title}}
+            <span class="chevron" onclick="clickSidebar(event)"></span>
+        </span>
+    </a>
 
-                                    </span>
+    <div class="collapse" id="collapse-{{ loop.index }}">
+        <ul>
+            {% for subcat in cat.subcategories %}
+            <li><a class="dropdown-item" href="{{url_for('categories',slug=subcat.slug)}}"
+                    aria-label="Microsoft">
+                    <span class="sidebar-text">{{subcat.title}}</span>
+                </a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</li>
+{% endfor %}
 
-                                </span>
-
-                            </a>
-                            
-                            <div class="collapse" id="collapse-1">
-                                
-                                <ul>
-                                    {% for subcat in cat.subcategories %}
-                                    <li><a class="dropdown-item" href="{{url_for('categories',slug=subcat.slug)}}"
-                                            aria-label="Microsoft">
-                                            <span class="sidebar-text">{{subcat.title}}</span>
-                                        </a></li>
-                                    
-                                    {% endfor %}
-                                </ul> 
-                                
-                            </div>
-                           
-
-                        </li>
-                        {% endfor %}
                     </ul>
 
                 </aside>
@@ -933,10 +923,15 @@
                 src="{{url_for('static', filename='js/swiper-bundle.min.js')}}"></script>
 
             <script type="text/javascript"
+                src="{{url_for('static', filename='js/jquery-3.7.0.min.js')}}"></script>
+
+            <script type="text/javascript"
                 src="{{url_for('static', filename='js/sidebar.js')}}"></script>
 
             <script type="text/javascript"
                 src="{{url_for('static', filename='js/main.js')}}"></script>
+           
+                
 
             <script>
         for (let i = 1; i <= 3; i++) {
