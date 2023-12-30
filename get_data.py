@@ -1,3 +1,5 @@
+# in the future we gonna make a wrapprr function for all the functions in this file and we will name it SetAllUp() when the below comment is true
+# False
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -108,6 +110,54 @@ def getCourses(params: UdemyApiParams = None):
         print(f"Error: {response.status_code}")
         return None
 
+def addCategoriesToDb():
+    """
+    Adds categories and subcategories to the database.
+
+    Reads categories from a JSON file and inserts them into the database.
+    If a category or subcategory already exists in the database, it is skipped.
+
+    Returns:
+        str: A message indicating that the operation is done.
+    """
+    with app.app_context():
+        with open('categories.json', 'r') as f:
+            categories = json.load(f)
+            for category in categories:
+                existing_cat = db.session.get(Category, category['id'])
+                if not existing_cat:
+                    cat = Category(
+                        id=category['id'],
+                        title=category['name'],
+                        slug=category['name'].replace(' ', '-'),
+                        url='',
+                        image='',
+                        types='parent',
+                    )
+                    db.session.add(cat)
+                    db.session.commit()
+
+                    for subcategory in category['subcategories']:
+                        existing_subcat = db.session.get(SubCategory, subcategory['id'])
+                        if not existing_subcat:
+                            subcat = SubCategory(
+                                id=subcategory['id'],
+                                title=subcategory['name'],
+                                slug=subcategory['name'].replace(' ', '-'),
+                                url='',
+                                image='',
+                                types='sub',
+                                parent_id=category['id'],
+                            )
+                            db.session.add(subcat)
+                            db.session.commit()
+    return "done"
+
+
+
+
+
+
 #^--> 0- this is the first to run on the server
 # setCatsUp()
 
@@ -124,46 +174,15 @@ def getCourses(params: UdemyApiParams = None):
 #     migrate.init_app(app, db)
 #     db.session.commit()
 
-#~ if you want to upgrade with new columns run this 
-
-
+#! if you want to upgrade with new columns run this in the terminal <==Hint !!!important
 # flask db init  
 # flask manage.py db migrate -m "commit msg"
 # flask manage.py db upgrade
 
 # #^ --> 2- add categories from json to the database
+#! this is the third to run on the server
+# addCategoriesToDb()
 
-with app.app_context():
-    with open('categories.json', 'r') as f:
-        categories = json.load(f)
-        for category in categories:
-            existing_cat = db.session.get(Category, category['id'])
-            if not existing_cat:
-                cat = Category(
-                    id=category['id'],
-                    title=category['name'],
-                    slug=category['name'].replace(' ', '-'),
-                    url='',
-                    image='',
-                    types='parent',
-                )
-                db.session.add(cat)
-                db.session.commit()
-
-                for subcategory in category['subcategories']:
-                    existing_subcat = db.session.get(SubCategory, subcategory['id'])
-                    if not existing_subcat:
-                        subcat = SubCategory(
-                            id=subcategory['id'],
-                            title=subcategory['name'],
-                            slug=subcategory['name'].replace(' ', '-'),
-                            url='',
-                            image='',
-                            types='sub',
-                            parent_id=category['id'],
-                        )
-                        db.session.add(subcat)
-                        db.session.commit()
 
 
 
